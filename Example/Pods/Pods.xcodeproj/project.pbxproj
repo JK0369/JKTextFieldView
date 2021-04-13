@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061A3954F9D0E3F1AC3B75DCAB1D1716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F57D20EF50B2B29316B6FD56E599B58 /* JKTextFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5DED035B5C5B4FD3F7748FD741FC1D /* JKTextFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F241A352E095EC19F396D473D71147 /* Pods-JKTextFieldView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC3E055E89832303A706CA82CE7B2EB /* Pods-JKTextFieldView_Example-dummy.m */; };
+		77F26F8D8EAE45007BF8B2DEBAC8AF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8E06574D10606668B564EE508025B565 /* JKTextFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A77CF53EDC1F4F33798B75089768BD99 /* JKTextFieldView-dummy.m */; };
+		C0712D8FD0D48C62DFE90238CE7FCA63 /* Pods-JKTextFieldView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A738980F2749B2B272F2AED8A35C10A8 /* Pods-JKTextFieldView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D834A70D4AD456E7D44C1524F7866312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DA9ACBC069E90347B0A0130590B4E10B /* Pods-JKTextFieldView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 631B6622B70148C32399DEFD46197DE8 /* Pods-JKTextFieldView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E091D007262430B200DEA038 /* JKTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091D006262430B200DEA038 /* JKTextFieldView.swift */; };
+		E091D013262433EB00DEA038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E091D012262433EB00DEA038 /* Assets.xcassets */; };
+		EA4D6B8501366038E5E699B32229CF65 /* Pods-JKTextFieldView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 235ACA80BF777EE15AF1F3BB53FF33E2 /* Pods-JKTextFieldView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E5A7D18A5EED0A8EC0AD2885DE35037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A047CE5A97EAB9D2F4A4F77D83B84CA4;
+			remoteInfo = "Pods-JKTextFieldView_Example";
+		};
+		A40E6D0EB04B708245D39851329CD3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21400F9D6E10A7073B342A66102BF82E;
+			remoteInfo = JKTextFieldView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FDCE457155A990F8C72DF5DC65CEFEE /* JKTextFieldView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKTextFieldView-Info.plist"; sourceTree = "<group>"; };
+		19B8EA0620E0E4532D8B047086E6851C /* Pods-JKTextFieldView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKTextFieldView_Example-Info.plist"; sourceTree = "<group>"; };
+		1BC3E055E89832303A706CA82CE7B2EB /* Pods-JKTextFieldView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKTextFieldView_Example-dummy.m"; sourceTree = "<group>"; };
+		235ACA80BF777EE15AF1F3BB53FF33E2 /* Pods-JKTextFieldView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKTextFieldView_Tests-dummy.m"; sourceTree = "<group>"; };
+		23FC4C07996F5DCF61A27CEAA950250D /* JKTextFieldView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKTextFieldView.release.xcconfig; sourceTree = "<group>"; };
+		24675B79277D1198A693A58B5BC393A6 /* JKTextFieldView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JKTextFieldView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CB070B8C520B599B6010BC6FF7B45BE /* Pods-JKTextFieldView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKTextFieldView_Tests.modulemap"; sourceTree = "<group>"; };
+		2D5DED035B5C5B4FD3F7748FD741FC1D /* JKTextFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKTextFieldView-umbrella.h"; sourceTree = "<group>"; };
+		35A95DDD2C04287B8B74A20169E59C6E /* Pods-JKTextFieldView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKTextFieldView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A5C465F84F4C5485D46F249200ADDF2 /* Pods-JKTextFieldView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKTextFieldView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E956202AEB03684A9AE0A6CE9644016 /* Pods-JKTextFieldView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKTextFieldView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		528053C8F8594D6FEEF63F7046D445A1 /* Pods-JKTextFieldView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKTextFieldView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		61C7B830A4C118895855A1E8AFA36E90 /* Pods-JKTextFieldView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKTextFieldView_Example.modulemap"; sourceTree = "<group>"; };
+		631B6622B70148C32399DEFD46197DE8 /* Pods-JKTextFieldView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKTextFieldView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A7883B2222F480CCF451CCA305A46C3 /* Pods-JKTextFieldView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKTextFieldView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AF179683D44C18275CF317F75ABEC39 /* Pods-JKTextFieldView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKTextFieldView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C0740EBB3D09CD0FCF5A9AB6D31743A /* JKTextFieldView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKTextFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924637F7108E233864FEB561E9D8A944 /* JKTextFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKTextFieldView.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F39651A8267592F1AD57BA75A99847A /* Pods_JKTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKTextFieldView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A738980F2749B2B272F2AED8A35C10A8 /* Pods-JKTextFieldView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKTextFieldView_Example-umbrella.h"; sourceTree = "<group>"; };
+		A77CF53EDC1F4F33798B75089768BD99 /* JKTextFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKTextFieldView-dummy.m"; sourceTree = "<group>"; };
+		C934BE986956591BD6F63F08B52A1B87 /* JKTextFieldView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKTextFieldView.debug.xcconfig; sourceTree = "<group>"; };
+		C9E62A3DECBA570747C8760A7B7D6782 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D4F5B0DE72ACCBF1DFAC6F5AE83AAD1B /* Pods-JKTextFieldView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKTextFieldView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5DEABB96945308BDB8CDAE70ABB078C /* Pods-JKTextFieldView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKTextFieldView_Tests-Info.plist"; sourceTree = "<group>"; };
+		DA81B9918AB35AB98E61E8E1BF2F3551 /* Pods-JKTextFieldView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKTextFieldView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E091D006262430B200DEA038 /* JKTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKTextFieldView.swift; sourceTree = "<group>"; };
+		E091D012262433EB00DEA038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4101451BEFBFE16282361CBD4CDA4DC /* Pods-JKTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EAFA844884C1F8A814791BB97FD4DC74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFB19AEAC21F1672D16380C3E5DD156B /* Pods_JKTextFieldView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKTextFieldView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F231CFEA8F774C46AB70865C7585DE0E /* JKTextFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKTextFieldView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199274692867046481DFE30DE6CE9406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061A3954F9D0E3F1AC3B75DCAB1D1716 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0682BEC3A7D8F1256E4A48C469423F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D834A70D4AD456E7D44C1524F7866312 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52FAB592EF3A2AF07F8DF66118B9CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F26F8D8EAE45007BF8B2DEBAC8AF13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A42F6226128EDE7EDACE84846328A0D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4044CAA0AB8847DF5B7C9B8C9C5B8F38 /* Pods-JKTextFieldView_Example */,
+				53425CA1F2C3B9E84776A7BC9D226099 /* Pods-JKTextFieldView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0E328036C21667E5726ADB622E732FDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E091D012262433EB00DEA038 /* Assets.xcassets */,
+				924637F7108E233864FEB561E9D8A944 /* JKTextFieldView.modulemap */,
+				A77CF53EDC1F4F33798B75089768BD99 /* JKTextFieldView-dummy.m */,
+				0FDCE457155A990F8C72DF5DC65CEFEE /* JKTextFieldView-Info.plist */,
+				F231CFEA8F774C46AB70865C7585DE0E /* JKTextFieldView-prefix.pch */,
+				2D5DED035B5C5B4FD3F7748FD741FC1D /* JKTextFieldView-umbrella.h */,
+				C934BE986956591BD6F63F08B52A1B87 /* JKTextFieldView.debug.xcconfig */,
+				23FC4C07996F5DCF61A27CEAA950250D /* JKTextFieldView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JKTextFieldView";
+			sourceTree = "<group>";
+		};
+		138EB2AC8EBDD57B594FCA9B44148E6F /* JKTextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				E091D006262430B200DEA038 /* JKTextFieldView.swift */,
+				83593D1233CDDA44097206A2AD969C8D /* Pod */,
+				0E328036C21667E5726ADB622E732FDA /* Support Files */,
+			);
+			name = JKTextFieldView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4044CAA0AB8847DF5B7C9B8C9C5B8F38 /* Pods-JKTextFieldView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				61C7B830A4C118895855A1E8AFA36E90 /* Pods-JKTextFieldView_Example.modulemap */,
+				D4F5B0DE72ACCBF1DFAC6F5AE83AAD1B /* Pods-JKTextFieldView_Example-acknowledgements.markdown */,
+				DA81B9918AB35AB98E61E8E1BF2F3551 /* Pods-JKTextFieldView_Example-acknowledgements.plist */,
+				1BC3E055E89832303A706CA82CE7B2EB /* Pods-JKTextFieldView_Example-dummy.m */,
+				4A5C465F84F4C5485D46F249200ADDF2 /* Pods-JKTextFieldView_Example-frameworks.sh */,
+				19B8EA0620E0E4532D8B047086E6851C /* Pods-JKTextFieldView_Example-Info.plist */,
+				A738980F2749B2B272F2AED8A35C10A8 /* Pods-JKTextFieldView_Example-umbrella.h */,
+				4E956202AEB03684A9AE0A6CE9644016 /* Pods-JKTextFieldView_Example.debug.xcconfig */,
+				E4101451BEFBFE16282361CBD4CDA4DC /* Pods-JKTextFieldView_Example.release.xcconfig */,
+			);
+			name = "Pods-JKTextFieldView_Example";
+			path = "Target Support Files/Pods-JKTextFieldView_Example";
+			sourceTree = "<group>";
+		};
+		53425CA1F2C3B9E84776A7BC9D226099 /* Pods-JKTextFieldView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2CB070B8C520B599B6010BC6FF7B45BE /* Pods-JKTextFieldView_Tests.modulemap */,
+				35A95DDD2C04287B8B74A20169E59C6E /* Pods-JKTextFieldView_Tests-acknowledgements.markdown */,
+				7A7883B2222F480CCF451CCA305A46C3 /* Pods-JKTextFieldView_Tests-acknowledgements.plist */,
+				235ACA80BF777EE15AF1F3BB53FF33E2 /* Pods-JKTextFieldView_Tests-dummy.m */,
+				D5DEABB96945308BDB8CDAE70ABB078C /* Pods-JKTextFieldView_Tests-Info.plist */,
+				631B6622B70148C32399DEFD46197DE8 /* Pods-JKTextFieldView_Tests-umbrella.h */,
+				528053C8F8594D6FEEF63F7046D445A1 /* Pods-JKTextFieldView_Tests.debug.xcconfig */,
+				7AF179683D44C18275CF317F75ABEC39 /* Pods-JKTextFieldView_Tests.release.xcconfig */,
+			);
+			name = "Pods-JKTextFieldView_Tests";
+			path = "Target Support Files/Pods-JKTextFieldView_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		83593D1233CDDA44097206A2AD969C8D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				24675B79277D1198A693A58B5BC393A6 /* JKTextFieldView.podspec */,
+				C9E62A3DECBA570747C8760A7B7D6782 /* LICENSE */,
+				EAFA844884C1F8A814791BB97FD4DC74 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B4FC0FD9AE430AB60610DAAEA73ABDF2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				138EB2AC8EBDD57B594FCA9B44148E6F /* JKTextFieldView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B4FC0FD9AE430AB60610DAAEA73ABDF2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E5E55E4A7B10D82FD21EC159C4FDED84 /* Products */,
+				0A42F6226128EDE7EDACE84846328A0D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5E55E4A7B10D82FD21EC159C4FDED84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0740EBB3D09CD0FCF5A9AB6D31743A /* JKTextFieldView.framework */,
+				9F39651A8267592F1AD57BA75A99847A /* Pods_JKTextFieldView_Example.framework */,
+				EFB19AEAC21F1672D16380C3E5DD156B /* Pods_JKTextFieldView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D84167855F68B80E2495DBC1E95E1AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0712D8FD0D48C62DFE90238CE7FCA63 /* Pods-JKTextFieldView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8B6D09A87A79482CD7F4CB236AA212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9ACBC069E90347B0A0130590B4E10B /* Pods-JKTextFieldView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C62201E176DFDF8227A62FF3E8F8BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F57D20EF50B2B29316B6FD56E599B58 /* JKTextFieldView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D3B091C544B10608ACDAD8A66B02410 /* Pods-JKTextFieldView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72B6D8664E7531A173D9950E2FDD581 /* Build configuration list for PBXNativeTarget "Pods-JKTextFieldView_Tests" */;
+			buildPhases = (
+				2E8B6D09A87A79482CD7F4CB236AA212 /* Headers */,
+				CD63E16B2C5E445A261EBDCD3CFDDCF3 /* Sources */,
+				E52FAB592EF3A2AF07F8DF66118B9CE0 /* Frameworks */,
+				4B506AE370F5BE89041032BEA5A9662A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF80461320B3113A3BCEF525E44C1BA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-JKTextFieldView_Tests";
+			productName = "Pods-JKTextFieldView_Tests";
+			productReference = EFB19AEAC21F1672D16380C3E5DD156B /* Pods_JKTextFieldView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21400F9D6E10A7073B342A66102BF82E /* JKTextFieldView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A646565D4977120F226941CF47163D /* Build configuration list for PBXNativeTarget "JKTextFieldView" */;
+			buildPhases = (
+				67C62201E176DFDF8227A62FF3E8F8BC /* Headers */,
+				2A2AB4D8B25DC2AB3B58267B73FFDDB4 /* Sources */,
+				4F0682BEC3A7D8F1256E4A48C469423F /* Frameworks */,
+				B93EF13151973732D40E4BE4A1F2749C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKTextFieldView;
+			productName = JKTextFieldView;
+			productReference = 8C0740EBB3D09CD0FCF5A9AB6D31743A /* JKTextFieldView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A047CE5A97EAB9D2F4A4F77D83B84CA4 /* Pods-JKTextFieldView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82699D79267D6E8DD333B7CF95AA3298 /* Build configuration list for PBXNativeTarget "Pods-JKTextFieldView_Example" */;
+			buildPhases = (
+				1D84167855F68B80E2495DBC1E95E1AD /* Headers */,
+				FBB11528D96D40585EFF3D4BEFBDEDD6 /* Sources */,
+				199274692867046481DFE30DE6CE9406 /* Frameworks */,
+				2D3A82D2D93C6BAAC23220214AA94CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC3036BAA0BC5F046AD2627D292D1C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-JKTextFieldView_Example";
+			productName = "Pods-JKTextFieldView_Example";
+			productReference = 9F39651A8267592F1AD57BA75A99847A /* Pods_JKTextFieldView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E5E55E4A7B10D82FD21EC159C4FDED84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21400F9D6E10A7073B342A66102BF82E /* JKTextFieldView */,
+				A047CE5A97EAB9D2F4A4F77D83B84CA4 /* Pods-JKTextFieldView_Example */,
+				1D3B091C544B10608ACDAD8A66B02410 /* Pods-JKTextFieldView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D3A82D2D93C6BAAC23220214AA94CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B506AE370F5BE89041032BEA5A9662A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93EF13151973732D40E4BE4A1F2749C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E091D013262433EB00DEA038 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2AB4D8B25DC2AB3B58267B73FFDDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E091D007262430B200DEA038 /* JKTextFieldView.swift in Sources */,
+				8E06574D10606668B564EE508025B565 /* JKTextFieldView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD63E16B2C5E445A261EBDCD3CFDDCF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4D6B8501366038E5E699B32229CF65 /* Pods-JKTextFieldView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB11528D96D40585EFF3D4BEFBDEDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F241A352E095EC19F396D473D71147 /* Pods-JKTextFieldView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC3036BAA0BC5F046AD2627D292D1C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JKTextFieldView;
+			target = 21400F9D6E10A7073B342A66102BF82E /* JKTextFieldView */;
+			targetProxy = A40E6D0EB04B708245D39851329CD3AF /* PBXContainerItemProxy */;
+		};
+		FF80461320B3113A3BCEF525E44C1BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JKTextFieldView_Example";
+			target = A047CE5A97EAB9D2F4A4F77D83B84CA4 /* Pods-JKTextFieldView_Example */;
+			targetProxy = 8E5A7D18A5EED0A8EC0AD2885DE35037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		227861CD3BFF5B8A42E41E2CE0EE82DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF179683D44C18275CF317F75ABEC39 /* Pods-JKTextFieldView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKTextFieldView_Tests/Pods-JKTextFieldView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKTextFieldView_Tests/Pods-JKTextFieldView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5BBED71925F3251CAD0ACAEC9D4372BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E956202AEB03684A9AE0A6CE9644016 /* Pods-JKTextFieldView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKTextFieldView_Example/Pods-JKTextFieldView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKTextFieldView_Example/Pods-JKTextFieldView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71663E6A7E91C854A3C20FA825E9CBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FC4C07996F5DCF61A27CEAA950250D /* JKTextFieldView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JKTextFieldView/JKTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKTextFieldView/JKTextFieldView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JKTextFieldView/JKTextFieldView.modulemap";
+				PRODUCT_MODULE_NAME = JKTextFieldView;
+				PRODUCT_NAME = JKTextFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5D3D590370EB8BBB92094C262E75AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C934BE986956591BD6F63F08B52A1B87 /* JKTextFieldView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JKTextFieldView/JKTextFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKTextFieldView/JKTextFieldView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JKTextFieldView/JKTextFieldView.modulemap";
+				PRODUCT_MODULE_NAME = JKTextFieldView;
+				PRODUCT_NAME = JKTextFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA56933B1D7919BE148C2FF94132BC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4101451BEFBFE16282361CBD4CDA4DC /* Pods-JKTextFieldView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKTextFieldView_Example/Pods-JKTextFieldView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKTextFieldView_Example/Pods-JKTextFieldView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAD668E0CFB695BAF8200DA83BB0E3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528053C8F8594D6FEEF63F7046D445A1 /* Pods-JKTextFieldView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKTextFieldView_Tests/Pods-JKTextFieldView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKTextFieldView_Tests/Pods-JKTextFieldView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A646565D4977120F226941CF47163D /* Build configuration list for PBXNativeTarget "JKTextFieldView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D3D590370EB8BBB92094C262E75AEF /* Debug */,
+				71663E6A7E91C854A3C20FA825E9CBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82699D79267D6E8DD333B7CF95AA3298 /* Build configuration list for PBXNativeTarget "Pods-JKTextFieldView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBED71925F3251CAD0ACAEC9D4372BD /* Debug */,
+				EA56933B1D7919BE148C2FF94132BC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72B6D8664E7531A173D9950E2FDD581 /* Build configuration list for PBXNativeTarget "Pods-JKTextFieldView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD668E0CFB695BAF8200DA83BB0E3DE /* Debug */,
+				227861CD3BFF5B8A42E41E2CE0EE82DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

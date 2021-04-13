@@ -1,0 +1,22 @@
+{
+  "name": "JKTextFieldView",
+  "version": "0.1.0",
+  "summary": "A short description of JKTextFieldView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JK0369/JKTextFieldView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JK0369": "jongkwon.kim@42dot.com"
+  },
+  "source": {
+    "git": "https://github.com/JK0369/JKTextFieldView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JKTextFieldView/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module JKTextFieldView {
+  umbrella header "JKTextFieldView-umbrella.h"
+
+  export *
+  module * { export * }
+}

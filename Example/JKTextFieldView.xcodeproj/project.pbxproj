@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		2637B00E3D07F163D6666D63 /* Pods-JKTextFieldView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKTextFieldView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JKTextFieldView_Tests/Pods-JKTextFieldView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3FE1E4E4FA2A4F4CA3EDBCF1 /* Pods-JKTextFieldView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKTextFieldView_Tests.release.xcconfig"; path = "Target Support Files/Pods-JKTextFieldView_Tests/Pods-JKTextFieldView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5AB2306D5ABFC14EA3F7C648 /* JKTextFieldView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JKTextFieldView.podspec; path = ../JKTextFieldView.podspec; sourceTree = "<group>"; };
+		5AB2306D5ABFC14EA3F7C648 /* JKTextFieldView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKTextFieldView.podspec; path = ../JKTextFieldView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* JKTextFieldView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKTextFieldView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +42,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		75D994A5E28EE6416E9DB298 /* Pods-JKTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKTextFieldView_Example.release.xcconfig"; path = "Target Support Files/Pods-JKTextFieldView_Example/Pods-JKTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B8CDF8D029D3A7A985F4D0B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D03F85AA5E8F288E53B4555D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8CDF8D029D3A7A985F4D0B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D03F85AA5E8F288E53B4555D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D52FD59806EDAD9E6501C29E /* Pods_JKTextFieldView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKTextFieldView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E612AFE9FC9FB265C0370200 /* Pods-JKTextFieldView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKTextFieldView_Example.debug.xcconfig"; path = "Target Support Files/Pods-JKTextFieldView_Example/Pods-JKTextFieldView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E740A0C40337D06F9F8B7798 /* Pods_JKTextFieldView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKTextFieldView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +86,6 @@
 				2637B00E3D07F163D6666D63 /* Pods-JKTextFieldView_Tests.debug.xcconfig */,
 				3FE1E4E4FA2A4F4CA3EDBCF1 /* Pods-JKTextFieldView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +478,7 @@
 			baseConfigurationReference = E612AFE9FC9FB265C0370200 /* Pods-JKTextFieldView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JKTextFieldView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +494,7 @@
 			baseConfigurationReference = 75D994A5E28EE6416E9DB298 /* Pods-JKTextFieldView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JKTextFieldView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

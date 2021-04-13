@@ -1,0 +1,16 @@
+PODS:
+  - JKTextFieldView (0.1.0)
+
+DEPENDENCIES:
+  - JKTextFieldView (from `../`)
+
+EXTERNAL SOURCES:
+  JKTextFieldView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKTextFieldView: bd8bc7d8eb35ac7a50f5d23962b93eb0cc1e7f50
+
+PODFILE CHECKSUM: 3750a0851148636a202f8f51681322e22775d03a
+
+COCOAPODS: 1.10.1
