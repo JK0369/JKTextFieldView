@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JKTextFieldView/Classes/**/*'
+  s.source_files = 'JKTextFieldView/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'JKTextFieldView' => ['JKTextFieldView/Assets/*.png']
