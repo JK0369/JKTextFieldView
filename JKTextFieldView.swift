@@ -28,7 +28,7 @@ public class JKTextFieldView: UITextField {
         let buttonImage = UIImage(systemName: "clear") // iOS 버전 13.0+만 가능
         rightButton.setImage(buttonImage, for: .normal)
         rightButton.addTarget(self, action: #selector(clearText), for: .touchUpInside)
-
+ 
         rightView = rightButton
         rightViewMode = .always
     }
