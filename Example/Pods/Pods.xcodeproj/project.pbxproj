@@ -15,7 +15,7 @@
 		C0712D8FD0D48C62DFE90238CE7FCA63 /* Pods-JKTextFieldView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A738980F2749B2B272F2AED8A35C10A8 /* Pods-JKTextFieldView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D834A70D4AD456E7D44C1524F7866312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DA9ACBC069E90347B0A0130590B4E10B /* Pods-JKTextFieldView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 631B6622B70148C32399DEFD46197DE8 /* Pods-JKTextFieldView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E091D007262430B200DEA038 /* JKTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E091D006262430B200DEA038 /* JKTextFieldView.swift */; };
+		E0594ABE26260293008D9E80 /* JKTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0594ABD26260293008D9E80 /* JKTextFieldView.swift */; };
 		E091D013262433EB00DEA038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E091D012262433EB00DEA038 /* Assets.xcassets */; };
 		EA4D6B8501366038E5E699B32229CF65 /* Pods-JKTextFieldView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 235ACA80BF777EE15AF1F3BB53FF33E2 /* Pods-JKTextFieldView_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -66,7 +66,7 @@
 		D4F5B0DE72ACCBF1DFAC6F5AE83AAD1B /* Pods-JKTextFieldView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKTextFieldView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5DEABB96945308BDB8CDAE70ABB078C /* Pods-JKTextFieldView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKTextFieldView_Tests-Info.plist"; sourceTree = "<group>"; };
 		DA81B9918AB35AB98E61E8E1BF2F3551 /* Pods-JKTextFieldView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKTextFieldView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E091D006262430B200DEA038 /* JKTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKTextFieldView.swift; sourceTree = "<group>"; };
+		E0594ABD26260293008D9E80 /* JKTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JKTextFieldView.swift; path = JKTextFieldView/Classes/JKTextFieldView.swift; sourceTree = "<group>"; };
 		E091D012262433EB00DEA038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4101451BEFBFE16282361CBD4CDA4DC /* Pods-JKTextFieldView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKTextFieldView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EAFA844884C1F8A814791BB97FD4DC74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		138EB2AC8EBDD57B594FCA9B44148E6F /* JKTextFieldView */ = {
 			isa = PBXGroup;
 			children = (
-				E091D006262430B200DEA038 /* JKTextFieldView.swift */,
+				E0594ABD26260293008D9E80 /* JKTextFieldView.swift */,
 				83593D1233CDDA44097206A2AD969C8D /* Pod */,
 				0E328036C21667E5726ADB622E732FDA /* Support Files */,
 			);
@@ -320,6 +320,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					21400F9D6E10A7073B342A66102BF82E = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -371,8 +376,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E091D007262430B200DEA038 /* JKTextFieldView.swift in Sources */,
 				8E06574D10606668B564EE508025B565 /* JKTextFieldView-dummy.m in Sources */,
+				E0594ABE26260293008D9E80 /* JKTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23FC4C07996F5DCF61A27CEAA950250D /* JKTextFieldView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -576,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C934BE986956591BD6F63F08B52A1B87 /* JKTextFieldView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -595,6 +602,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
