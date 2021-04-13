@@ -22,7 +22,7 @@ pod 'JKTextFieldView'
 
 ## Author
 
-JK0369, jongkwon.kim@42dot.com
+JK0369, palatable7@naver.com
 
 ## License
 
